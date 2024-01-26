@@ -1,0 +1,60 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.guest {
+    width: 1000px;
+    min-height: 60%;
+    background-color:antiquewhite;
+    border: 5px groove red;
+}
+
+textarea {
+    width: 800px;
+    padding: 0;
+    border: 1px solid #f9a849;
+    box-shadow: rgba(0,0,0,0.5) 3px 3px 5px, rgba(0,0,0,0.5) -1px -1px 5px;
+   }
+
+.mybtn {padding: 1px 3px; 
+     font-size: 1em;
+    margin:2px 5px;
+    width:200px;
+    height: 1.6em;
+}
+table td:nth-child(1), td:nth-child(3) {
+    width: 200px;
+}
+table td:nth-child(2) {
+    width: 470px;
+}
+.m-t-10 {margin-top:10px;}
+
+.mytext-danger {
+    border: 2px double red;
+    background-color: #E0830A;
+    color: black;
+    font-size: 0.7em;
+    padding: 0 5px;
+    width: 500px;
+    text-decoration: none;
+}
